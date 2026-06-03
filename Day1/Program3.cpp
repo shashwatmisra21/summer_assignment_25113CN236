@@ -7,12 +7,9 @@ int main() {
 
     cout << "Enter a positive integer: ";
     cin >> n;
-
-    // Factorial is not defined for negative numbers
     if (n < 0) {
         cout << "Error! Factorial of a negative number does not exist." << endl;
     } else {
-        // Loop to multiply numbers from 1 to n
         for (int i = 1; i <= n; ++i) {
             factorial *= i;
         }
